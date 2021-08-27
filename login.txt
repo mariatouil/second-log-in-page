@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8" />
+   <meta name="viewport"content="width=device-widows">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css" />
+   <link rel="stylesheet"href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>formulaire de conexion</title>
+  </head>
+  <body>
+ 
+  
+  
+  <div class="form">
+   <h1>Let's go,</h1>
+  <p>Traveling arround the world <span id="world">&#127757 </span></p>
+  
+  <form>
+  <label for="email"><i class="fas fa-envelope-open"></i></label>
+   <input id="mail"  class="ep"  id="email" type="email" placeholder="Eamil">
+     <label for="pass"><i class="fas fa-lock"></i></label>
+   <input class="ep" id="pass" type="password"  placeholder="Paasword">
+   <input  id="log"class="login" type="submit" value="Log in">
+  </form>
+  <footer>
+  <a id="first" href="signin.html">Don't have an account?<span id="sign">&nbsp Sign in</span>&nbsp&nbsp&nbsp </a> <strong class="line">|</strong>
+  
+  <a id="forget" href="forget">&nbsp&nbspForget Password ?</a>
+  
+  </footer>
+  
+  
+  </div>
+  
+ 
+  
+  </body>
+  </html>
